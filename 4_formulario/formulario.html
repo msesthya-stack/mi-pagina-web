@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulariode contacto</title>
+</head>
+    <body>
+
+        <h1>
+            Formularios
+        </h1>
+
+        <p>
+            mailto:ega059@educa.madrid.org.com?subject=tarea_de_marcas<br><br>
+        </p>
+        <form action"mailto:ega059@educa.madrid.org.com?subject=tarea_de_marcas" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                Nombre (requerido):<br>
+                    <input type="text" name="nombre" size="30"><br><br>
+
+                Edad (Solo debe aceptar un numero)<br>
+                    <input type="number" name="edad" size="1"><br><br>
+
+                Email:<br>
+                    <input type="email" name="email" size="30"><br><br>
+
+                Curso:<br>
+                    <select name="curso">
+                        <option value="1">HTML básico</option>
+                    </select><br><br>
+
+                Comentarios:<br>
+                    <textarea name="comentarios" rows="5" cols="40"></textarea>
+                    <br><br>
+                    
+                    <input type="submit" value="Enviar">
+
+            </fieldset>
+        </form>
+        
+        <br><br>
+        <a href="..\index.html">Volver al índice</a>
+
+        <br><br>
+
+        <footer>Copyright &copy; 2026 EGA. Todos los derechos reservados.</footer>
+            
+    </body>
+</html>
